@@ -5,7 +5,7 @@ import postRouter from './src/modules/posts/posts.routes.js';
 import commentsRouter from './src/modules/comments/comments.routes.js';
 
 const app = express();
-const PORT = 3000;
+const PORT = 8080;
 
 app.use(express.json())
 connectionDB()
